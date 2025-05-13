@@ -8,6 +8,10 @@
         <servlet-name>ViewAll</servlet-name>
         <servlet-class>za.ac.tut.serv.ViewAll</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>search</servlet-name>
+        <servlet-class>za.ac.tut.serv.search</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>addACholder</servlet-name>
         <url-pattern>/addACholder.do</url-pattern>
@@ -15,6 +19,10 @@
     <servlet-mapping>
         <servlet-name>ViewAll</servlet-name>
         <url-pattern>/ViewAll.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>search</servlet-name>
+        <url-pattern>/search.do</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
